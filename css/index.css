@@ -1,0 +1,27 @@
+* {
+  box-sizing: border-box;
+  color: #2f3e46;
+}
+
+body {
+  background-color: #cad2c5;
+}
+
+.image-logo {
+  width: 60px;
+}
+
+.navbar-custom {
+  background-color: #2f3e46;
+}
+
+footer {
+  border-top: #2f3e46 1px solid;
+  color: white;
+  text-align: center;
+  padding: 5px 0;
+}
+
+footer > .container > p {
+  margin: 0 auto;
+}
