@@ -7,6 +7,11 @@ body {
   background-color: #cad2c5;
 }
 
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
 .image-logo {
   width: 60px;
 }
@@ -15,11 +20,104 @@ body {
   background-color: #2f3e46;
 }
 
+.nav-link {
+  font-size: 1.1em;
+}
+
+/*===============================================================================================================================*/
+
+.carousel-item {
+  width: 100%;
+  height: 500px;
+}
+
+.carousel-item img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.inception-image {
+  object-position: bottom;
+}
+
+.the-boys-image {
+  object-position: 100% 30%;
+}
+
+.one-piece-image {
+  object-position: 60% 30%;
+}
+
+.movie-title {
+  color: white;
+  font-size: 2em;
+  text-shadow: 3px 2px 0px #000;
+}
+
+.movie-text {
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  text-shadow: 2px 1px 0px #000;
+}
+
+.btn-modal {
+  background-color: #2f3e46;
+}
+
+.modal-body {
+  display: flex;
+  flex-direction: column;
+  text-align: justify;
+}
+
+.gif-modal {
+  margin: 0 auto;
+  border-radius: 10%;
+}
+
+.section-popcorn-movies {
+  margin: 20px auto 0;
+  text-align: center;
+}
+
+.text-main {
+  font-size: 1.2em;
+}
+
+.btn-see-more {
+  margin: 0 auto;
+}
+
+.link-div-form {
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 40px 0;
+  gap: 10px;
+}
+
+/*===============================================================================================================================*/
+
 footer {
-  border-top: #2f3e46 1px solid;
   color: white;
   text-align: center;
   padding: 5px 0;
+}
+
+.footer-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1em;
+  justify-content: center;
+}
+
+footer > .container {
+  border-top: #2f3e46 1px solid;
 }
 
 footer > .container > p {

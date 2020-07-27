@@ -7,6 +7,11 @@ body {
   background-color: #cad2c5;
 }
 
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.8em;
+}
+
 .image-logo {
   width: 60px;
 }
@@ -15,11 +20,27 @@ body {
   background-color: #2f3e46;
 }
 
+.nav-link {
+  font-size: 1.1em;
+}
+
 footer {
-  border-top: #2f3e46 1px solid;
   color: white;
   text-align: center;
   padding: 5px 0;
+}
+
+.footer-container {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 1em;
+  justify-content: center;
+}
+
+footer > .container {
+  border-top: #2f3e46 1px solid;
 }
 
 footer > .container > p {
