@@ -24,14 +24,29 @@ body {
   font-size: 1.1em;
 }
 
+main {
+  margin: 20px 0 40px;
+}
+
+.about-site {
+  text-align: justify;
+}
+
 .container {
   justify-content: center;
 }
 .user-name,
 .emailAddress {
-  width: 80%;
+  width: 99%;
   border: 2px solid #2f3e46;
   border-radius: 4px;
+}
+
+.div-button {
+  display: flex;
+  justify-content: center;
+  gap: 1em;
+  margin-top: 1.5em;
 }
 
 .btn-primary {
@@ -77,6 +92,11 @@ body {
 .card {
   margin: 10px;
   padding: 0px;
+}
+
+.subtitle-cure {
+  margin: 20px 0 10px;
+  text-align: center;
 }
 
 @media (min-width: 575px) {
