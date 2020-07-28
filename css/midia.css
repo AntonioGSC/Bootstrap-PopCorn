@@ -24,6 +24,49 @@ body {
   font-size: 1.1em;
 }
 
+h3,
+h5 {
+  text-align: center;
+  justify-content: center;
+}
+
+.video {
+  padding: 10px;
+}
+
+.centro {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.intro {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-right: 40px;
+  justify-content: start;
+  flex-wrap: wrap;
+  vertical-align: middle;
+}
+
+.video {
+  padding: 0px;
+}
+#ajuste_video {
+  padding-left: 20px;
+}
+
+.card-group {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.card > img {
+  width: 100%;
+}
+
 footer {
   color: white;
   text-align: center;

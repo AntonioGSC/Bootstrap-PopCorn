@@ -24,6 +24,71 @@ body {
   font-size: 1.1em;
 }
 
+.container {
+  justify-content: center;
+}
+.user-name,
+.emailAddress {
+  width: 80%;
+  border: 2px solid #2f3e46;
+  border-radius: 4px;
+}
+
+.btn-primary {
+  background-color: #84a98c;
+  border: #84a98c;
+}
+
+.btn-primary:hover {
+  background-color: #52796f;
+}
+.btn-secondary {
+  background-color: #354f52;
+  border: #354f52;
+}
+
+.btn-secondary:hover {
+  background-color: #2f3e46;
+}
+
+.form {
+  margin: 20px;
+  padding: 10px;
+  border: 2px solid #2f3e46;
+  border-radius: 5px;
+}
+
+.favorite-genres {
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.favorite-genres > li {
+  padding: 0px;
+  margin: 3px;
+  width: 100px;
+  height: 30px;
+  border: 1px solid #2f3e46;
+  border-radius: 5px;
+}
+
+.card {
+  margin: 10px;
+  padding: 0px;
+}
+
+@media (min-width: 575px) {
+  .form {
+    margin: 0px;
+  }
+
+  .card {
+    width: 50px;
+  }
+}
+
 footer {
   color: white;
   text-align: center;

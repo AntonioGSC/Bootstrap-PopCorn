@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="img/logo.png" class="icone-head" />
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/bootstrap.min.css" />
     <link rel="stylesheet" href="./css/contact.css" />
@@ -48,8 +49,158 @@
         </div>
       </nav>
     </header>
-    <main>
-      <div class="container"></div>
+    <main class="container">
+      <div class="row">
+        <div class="form col-md-6">
+          <!-- Devo colocar esse h1 dentro do form? -->
+          <h1>Quer receber dicas no email?</h1>
+          <form action="endpoint" method="get">
+            <label for="user-name">Nome</label>
+            <br />
+            <input
+              class="user-name"
+              type="text"
+              id="user-name"
+              placeholder="Fulano"
+              name="user-name"
+              required
+            />
+            <label for="preference"></label>
+            <label for="emailAddress">Endereço de email</label>
+            <br />
+            <input
+              class="emailAddress"
+              type="text"
+              id="emailAddress"
+              placeholder="usuario@example.com"
+              name="emailAddress"
+              required
+            />
+            <label for="preference"></label>
+            <br />
+            <br />
+            <label>Quais são seus gêneros favoritos?</label>
+            <ul class="favorite-genres">
+              <li>
+                <label for="adventure">Aventura</label>
+                <input
+                  type="checkbox"
+                  name="adventure"
+                  id="adventure"
+                  value="adventure"
+                />
+              </li>
+              <li>
+                <label for="action">Ação</label>
+                <input
+                  type="checkbox"
+                  name="action"
+                  id="action"
+                  value="action"
+                />
+              </li>
+              <li>
+                <label for="horror">Terror</label>
+                <input
+                  type="checkbox"
+                  name="horror"
+                  id="horror"
+                  value="horror"
+                />
+              </li>
+              <li>
+                <label for="thriller">Suspense</label>
+                <input
+                  type="checkbox"
+                  name="thriller"
+                  id="thriller"
+                  value="thriller"
+                />
+              </li>
+              <li>
+                <label for="comedy">Comédia</label>
+                <input
+                  type="checkbox"
+                  name="comedy"
+                  id="comedy"
+                  value="comedy"
+                />
+              </li>
+              <li>
+                <label for="western">Faroeste</label>
+                <input
+                  type="checkbox"
+                  name="western"
+                  id="western"
+                  value="western"
+                />
+              </li>
+              <li>
+                <label for="musical">Musical</label>
+                <input
+                  type="checkbox"
+                  name="musical"
+                  id="musical"
+                  value="musical"
+                />
+              </li>
+              <li>
+                <label for="drama">Drama</label>
+                <input type="checkbox" name="drama" id="drama" value="drama" />
+              </li>
+            </ul>
+            <button type="submit" class="btn btn-primary">Enviar</button>
+            <button type="reset" class="btn btn-secondary">Excluir</button>
+          </form>
+        </div>
+
+        <div class="about col-md-6">
+          <h2>Sobre o Site</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia
+            quaerat velit ipsa aspernatur quod, assumenda ad tempore repellendus
+            molestias illum dicta, eveniet qui? Dolores veritatis sunt
+            provident. Accusantium, assumenda corporis.Eligendi ut corporis
+            assumenda tempora aspernatur illum beatae eum reiciendis
+            consequuntur consectetur quam voluptatem, incidunt eaque voluptatum?
+            Distinctio provident optio earum esse illum odio quae, fugiat beatae
+            saepe! Est, rerum?
+          </p>
+        </div>
+      </div>
+
+      <h2>Curadores</h2>
+      <div class="container">
+        <div class="row">
+          <div class="card col-md-5" style="width: 18rem;">
+            <img src="./img/cowboy-bebop.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card col-md-5" style="width: 18rem;">
+            <img src="./img/cowboy-bebop.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+          <div class="card col-md-5" style="width: 18rem;">
+            <img src="./img/cowboy-bebop.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </main>
     <footer>
       <div class="container">
