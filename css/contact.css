@@ -85,10 +85,6 @@ main {
   .form {
     margin: 0px;
   }
-
-  .card {
-    width: 50px;
-  }
 }
 
 .image-dev {
@@ -98,6 +94,18 @@ main {
 .card-img-top {
   margin-top: 1em;
   border-radius: 50%;
+}
+
+.text-card-div {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+
+.link-contact {
+  font-size: 1.2em;
+  color: #354f52;
+  font-weight: bold;
 }
 
 footer {
@@ -123,21 +131,16 @@ footer > .container > p {
   margin: 0 auto;
 }
 
-@media (min-width: 576px) {
-  .card-deck {
-    display: inline;
+@media (max-width: 768px) {
+  .favorite-genres {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 }
 
 @media (min-width: 768px) {
   .card-deck {
     display: flex;
-  }
-}
-
-@media (max-width: 768px) {
-  .card-text {
-    padding: 0 20px 0 50px;
-    width: 90%;
   }
 }
