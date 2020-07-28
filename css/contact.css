@@ -123,21 +123,4 @@ footer > .container > p {
   margin: 0 auto;
 }
 
-@media (min-width: 576px) {
-  .card-deck {
-    display: inline;
-  }
-}
 
-@media (min-width: 768px) {
-  .card-deck {
-    display: flex;
-  }
-}
-
-@media (max-width: 768px) {
-  .card-text {
-    padding: 0 20px 0 50px;
-    width: 90%;
-  }
-}
